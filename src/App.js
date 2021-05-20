@@ -4,9 +4,12 @@ import './App.css';
 import Book from './components/book';
 
 function App() {
+  const missatge = "Viatge a la lluna"
   return (
     <div className="App">
-        <Book />
+        <Book 
+          varisMissatges={missatge}
+        />
     </div>
   );
 }

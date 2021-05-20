@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Book(){
+function Book(props){
     return(
-        <h1>Viatge a la lluna</h1>
+        <h1>{props.varisMissatges}</h1>
     )
 }
 
